@@ -66,7 +66,7 @@ export class CustomerEffects {
                             changes: action.inputdata
                         }
                         return of(updateCUSTOMERsuccess({ inputdata: updatedrecord }),
-                            showalert({ message: 'Upadted successfully.', resulttype: 'pass' }))
+                            showalert({ message: 'Updated successfully.', resulttype: 'pass' }))
                     }),
                     catchError((_error) => of(showalert({ message: 'Failed to update CUSTOMER', resulttype: 'fail' })))
                 )
