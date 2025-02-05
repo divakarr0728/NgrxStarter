@@ -1,12 +1,13 @@
 import {NgModule} from "@angular/core";
 import {BrowserModule} from "@angular/platform-browser";
 import {ReactiveFormsModule} from "@angular/forms";
-import {HomeComponent} from "./home.component";
 import {CommonModule} from "@angular/common";
 import { ButtonModule } from 'primeng/button';
 import { CardModule } from 'primeng/card';
 import { TableModule } from 'primeng/table';
 import { PaginatorModule } from 'primeng/paginator';
+import { UserEditComponent } from "./user-edit.component";
+import { MaterialModule } from "../Material.module";
 
 @NgModule({
     imports: [
@@ -16,16 +17,17 @@ import { PaginatorModule } from 'primeng/paginator';
         ButtonModule,
         CardModule,
         TableModule,
-        PaginatorModule
+        PaginatorModule,
+        MaterialModule
              
 
     ],
     declarations: [
-        HomeComponent
+        UserEditComponent
     ],
     exports: [
-        HomeComponent
+        UserEditComponent
     ]
 })
-export class HomeModule {
+export class UserEditModule {
 }

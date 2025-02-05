@@ -1,0 +1,16 @@
+.mdc-card{
+    margin: 2%;
+}
+
+button{
+    margin: 2px;
+}
+.primary-btn{
+    background-color: #4a4ade;
+    width: 80px;
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}

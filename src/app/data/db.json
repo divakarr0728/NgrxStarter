@@ -1,0 +1,251 @@
+{
+  "userData": [
+    {
+      "id": "1",
+      "name": "Leanne Graham",
+      "username": "Bret",
+      "email": "Sincere@april.biz"
+    },
+    {
+      "id": "2",
+      "name": "Ervin Howell",
+      "username": "Antonette",
+      "email": "Shanna@melissa.tv"
+    },
+    {
+      "id": "3",
+      "name": "Clementine Bauch",
+      "username": "Samantha",
+      "email": "Nathan@yesenia.net"
+    },
+    {
+      "id": "4",
+      "name": "Divakar",
+      "email": "test@gmail.com",
+      "username": "Ravichandran"
+    },
+    {
+      "id": "5",
+      "name": "Chelsey Dietrich",
+      "username": "Kamren",
+      "email": "Lucio_Hettinger@annie.ca"
+    },
+    {
+      "id": "6",
+      "name": "Mrs. Dennis Schulist",
+      "username": "Leopoldo_Corkery",
+      "email": "Karley_Dach@jasper.info"
+    },
+    {
+      "id": "7",
+      "name": "Kurtis Weissnat",
+      "username": "Elwyn.Skiles",
+      "email": "Telly.Hoeger@billy.biz"
+    },
+    {
+      "id": "8",
+      "name": "Nicholas Runolfsdottir V",
+      "username": "Maxime_Nienow",
+      "email": "Sherwood@rosamond.me"
+    },
+    {
+      "id": "9",
+      "name": "Glenna Reichert",
+      "username": "Delphine",
+      "email": "Chaim_McDermott@dana.io"
+    },
+    {
+      "id": "10",
+      "name": "Clementina DuBuque",
+      "username": "Moriah.Stanton",
+      "email": "Rey.Padberg@karina.biz"
+    },
+    {
+      "id": 0,
+      "name": "Divakar",
+      "email": "xyz@test.com",
+      "phone": "123456789",
+      "associategroup": "level1",
+      "address": "15",
+      "type": "CUSTOMER",
+      "status": true
+    },
+    {
+      "id": 0,
+      "name": "k",
+      "email": "k@m.com",
+      "phone": "k",
+      "associategroup": "level1",
+      "address": "k",
+      "type": "CUSTOMER",
+      "status": true
+    }
+  ],
+  "associate": [
+    {
+      "id": "1",
+      "name": "Ramesh Kumar",
+      "email": "ramesh@in.com",
+      "phone": "899089898",
+      "associategroup": "level1",
+      "address": "No 2\nRamraj street, chennai\nIndai",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": "2",
+      "name": "Akbar",
+      "email": "akbar@in.com",
+      "phone": "899089898",
+      "associategroup": "level1",
+      "address": "No 2\nRamraj street, Delhi\nIndai",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": "5",
+      "name": "Ramesh Kumar",
+      "email": "ramesh@inc.com",
+      "phone": "899089898",
+      "associategroup": "level2",
+      "address": "No 2\nRamraj street, chennai test\nIndai",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": "10",
+      "name": "Natrajan",
+      "email": "nat@in.com",
+      "phone": "55566",
+      "associategroup": "level2",
+      "address": "hj",
+      "type": "SUPPLIER",
+      "status": true
+    }
+  ],
+  "user": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "name": "Adminuser",
+      "email": "ad@in.com",
+      "phone": "678888",
+      "gender": "male",
+      "role": "manager",
+      "status": true,
+      "id": "1"
+    },
+    {
+      "username": "testuser",
+      "password": "test",
+      "name": "NT User",
+      "email": "nt@in.com",
+      "phone": "678889999",
+      "gender": "female",
+      "role": "manager",
+      "status": true,
+      "id": "2"
+    },
+    {
+      "username": "ntuser",
+      "password": "test",
+      "name": "NT User 2",
+      "email": "nt1@in.com",
+      "phone": "66888999",
+      "gender": "male",
+      "role": "admin",
+      "status": true,
+      "id": "3"
+    }
+  ],
+  "role": [
+    {
+      "code": "admin",
+      "name": "Admin",
+      "id": "4ecd"
+    },
+    {
+      "code": "manager",
+      "name": "Manager",
+      "id": "91c9"
+    },
+    {
+      "code": "user",
+      "name": "User",
+      "id": "7e27"
+    }
+  ],
+  "menu": [
+    {
+      "code": "associate",
+      "Name": "Associate",
+      "id": "69f4"
+    },
+    {
+      "code": "customer",
+      "Name": "Customer",
+      "id": "1942"
+    },
+    {
+      "code": "user",
+      "Name": "User",
+      "id": "ca10"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "associate",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true,
+      "haveview": true,
+      "id": "3002"
+    },
+    {
+      "role": "admin",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true,
+      "haveview": true,
+      "id": "8ef0"
+    },
+    {
+      "role": "admin",
+      "menu": "user",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true,
+      "haveview": true,
+      "id": "ca58"
+    },
+    {
+      "role": "manager",
+      "menu": "associate",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true,
+      "haveview": true,
+      "id": "1caf"
+    },
+    {
+      "role": "manager",
+      "menu": "customer",
+      "haveadd": true,
+      "haveedit": true,
+      "havedelete": true,
+      "haveview": true,
+      "id": "b205"
+    },
+    {
+      "role": "user",
+      "menu": "associate",
+      "haveadd": true,
+      "haveedit": false,
+      "havedelete": false,
+      "haveview": true,
+      "id": "6b4a"
+    }
+  ]
+}
